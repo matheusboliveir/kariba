@@ -1,0 +1,23 @@
+{
+    "name": "kariba",
+    "description": "Uma versão do jogo de tabuleiro Kariba, feito com Phaser 3 e Vite.",
+    "version": "1.0.0",
+    "author": "Matheus Braz de Oliveira",
+    "license": "MIT",
+    "scripts": {
+        "dev": "node log.js dev & vite --config vite/config.dev.mjs",
+        "build": "node log.js build & vite build --config vite/config.prod.mjs",
+        "dev-nolog": "vite --config vite/config.dev.mjs",
+        "build-nolog": "vite build --config vite/config.prod.mjs"
+    },
+    "devDependencies": {
+        "terser": "^5.31.0",
+        "typescript": "^5.4.5",
+        "vite": "^5.3.1"
+    },
+    "dependencies": {
+        "phaser": "^3.88.2",
+        "phaser3-rex-plugins": "^1.80.14",
+        "socket.io-client": "^4.8.1"
+    }
+}
