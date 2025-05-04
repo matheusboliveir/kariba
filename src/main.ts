@@ -1,3 +1,4 @@
+import { Pause } from './menus/Pause';
 import { Boot } from './scenes/Boot';
 import { Game as MainGame } from './scenes/Game';
 import { GameOver } from './scenes/GameOver';
@@ -23,7 +24,8 @@ const config: Types.Core.GameConfig = {
         Preloader,
         MainMenu,
         MainGame,
-        GameOver
+        GameOver,
+        Pause
     ]
 };
 
